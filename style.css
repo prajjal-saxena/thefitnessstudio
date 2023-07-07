@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: 'Poppins';
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+p{
+    color: #f1f1f1;
+    text-align: justify;
+}
+h1{
+    color: #FFCC00;
+}
+body{
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    background: #000;
+}
+.cover{
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.5),  rgba(0, 0, 0.5)), url("./images/cover.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.cover-para{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+}
+
+.service-offered{
+    background: url('./images/service.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+.service-content{
+    background: #000000a0;
+    padding: 50px 95px;
+    
+}
+.nutrition{
+   background: url('./images/nutrition.jpg') no-repeat center center/cover;
+   background-attachment: fixed;
+}
+.serv{
+    padding: 50px 0px;
+}
+.client{
+    background: indianred;
+    padding: 40px 30px;
+    border-radius: 42px 7px 42px 7px;
+}
+.client-success-story .cl-para{
+    position: relative;
+    top: 67px;
+    left: 9px;
+}
+.start{
+    background: #F8C301;
+}
+.follow-us{
+    width: 1;
+}
+
+.margbott{
+    margin: 100px 0px;
+}
+.about img{
+    height: 500px;
+}
+.footer p{
+    text-align: start;
+}
+.margtop{
+    margin-top: 52px;
+}
+.contactus{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width : 600px){
+    .form-contact{
+        width: 80%;
+    }
+    .cover{
+        height: 300px;
+    }
+    .cover-para{
+        height: 300px;
+    }
+    .follow-us{
+        width: 30%;
+    }
+    .about img{
+        height: 300px;
+    }
+    .service-content {
+        padding: 8px 10px;
+    }
+    .serv{
+        padding: 19px 0px;
+    }
+    .margbott{
+        margin: 40px 0px;
+    }
+    .margtop{
+        margin-top: 10px;
+    }
+    .contimg{
+        display:  none;
+    }
+    .contact2{
+        width: 100%!important;
+    }
+    .contact2 form{
+        width: 100%;
+    }
+}
+
